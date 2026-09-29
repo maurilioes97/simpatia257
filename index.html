@@ -138,6 +138,11 @@ header nav .btn.light{background:transparent;color:var(--purple);border-color:va
 .hero .btn.light{background:#86cc46;color:#112b10;border-color:#86cc46}.hero .btn.light:hover{background:#9cdd60}
 aside a.active{background:#bde98d;color:#154d25;box-shadow:inset 4px 0 #258344}aside a:hover{background:#c5dcfa}
 .tag{background:#c5dcfa;color:#103e7d}.tag.ok{background:#bde98d;color:#154d25}
+/* Tom suave nos botões de acesso e reinício da barra lateral. */
+#account-panel > a.btn.light,
+#sidebar-body > button[data-action="reset"]{background:#edf5e4;color:#28643a;border-color:#78a563}
+#account-panel > a.btn.light:hover,
+#sidebar-body > button[data-action="reset"]:hover{background:#dceccd}
 </style>
 </head>
 <body>
@@ -298,6 +303,7 @@ setSidebar(!smallScreen.matches);
 </script>
 </body>
 </html>
+
 
 
 
